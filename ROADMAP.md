@@ -6,7 +6,6 @@ Dev Notes:
 
 To do next:
     CRUD for users and bonsais
-    Add height, width, nebari measurements to bonsai model
 -----
 
 Short term:
