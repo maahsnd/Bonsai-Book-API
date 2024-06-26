@@ -1,2 +1,4 @@
 bonsai_book.db
 .prettierrc
+.env
+node_modules
