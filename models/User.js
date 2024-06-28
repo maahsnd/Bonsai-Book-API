@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
@@ -8,7 +8,7 @@ const UserSchema = new Schema({
   passwordHash: { type: String, required: true },
   profilePhoto: { type: String, maxLength: 200 },
   bio: { type: String, maxLength: 400 },
-  bonsai: [{ type: Schema.Types.ObjectId, ref: "Bonsai", required: true }],
+  bonsai: [{ type: Schema.Types.ObjectId, ref: 'Bonsai' }]
 });
 
-module.exports = mongoose.model("User", UserSchema);
+module.exports = mongoose.model('User', UserSchema);
