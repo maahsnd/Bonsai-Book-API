@@ -16,7 +16,7 @@ router.put('/:id', function (req, res, next) {
   res.send('update bonsai');
 });
 
-/* Delete bonsa */
+/* Delete bonsai */
 router.delete('/:id', function (req, res, next) {
   res.send('delete bonsai');
 });
