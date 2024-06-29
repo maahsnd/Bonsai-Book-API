@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app.js'); // Adjust the path as necessary to import your Express app
+const app = require('../app.js');
 
 describe('User API', () => {
   it('should create a new user', async () => {
