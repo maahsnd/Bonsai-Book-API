@@ -2,12 +2,12 @@ var express = require('express');
 var router = express.Router();
 const User = require('../models/user');
 
-/* Get user. */
+/* Get user. TODO*/
 router.get('/:id', function (req, res, next) {
   res.send('get user');
 });
 
-/* Create user. */
+/* Create user. TODO*/
 router.post('/', async (req, res) => {
   const { username } = req.body;
   try {
@@ -20,12 +20,12 @@ router.post('/', async (req, res) => {
   }
 });
 
-/* Update user. */
+/* Update user. TODO*/
 router.put('/:id', function (req, res, next) {
   res.send('update user');
 });
 
-/* Delete user */
+/* Delete user. TODO*/
 router.delete('/:id', function (req, res, next) {
   res.send('delete user');
 });
