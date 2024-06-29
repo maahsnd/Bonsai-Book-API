@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 /* Get single bonsai. TODO*/
 router.get('/:id', function (req, res, next) {
