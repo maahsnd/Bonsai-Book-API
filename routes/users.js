@@ -10,7 +10,6 @@ router.get('/:id', function (req, res, next) {
 /* Create user. */
 router.post('/', async (req, res) => {
   const { username } = req.body;
-
   try {
     const newUser = new User({ username });
     await newUser.save();
