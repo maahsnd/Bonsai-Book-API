@@ -5,11 +5,9 @@ Dev Notes:
 -----
 
 To do next:
-    Add comments so other people understand wtf im doing
-    CRUD tests for users
-    CRUD tests for bonsai
-    CRUD for users (create controller)
-    CRUD for bonsai (create controller)
+    Implement CRUD for users (create controller)
+    Create CRUD tests for bonsai
+    Implement CRUD for bonsai (create controller)
 -----
 
 Short term:
